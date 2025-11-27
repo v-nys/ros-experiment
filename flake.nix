@@ -31,6 +31,7 @@
                 paths = [
                   ros-core
                   turtlesim
+                  rqt
                   # ... other ROS packages
                 ];
               }
