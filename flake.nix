@@ -33,21 +33,21 @@
                   turtlesim
                   # all rqt stuff from the overlay
                   rqt
-                  # rqt-action
-                  # rqt-bag
+                  rqt-action
+                  rqt-bag
                   # rqt-bag-plugins
-                  # rqt-common-plugins
+                  rqt-common-plugins
                   # rqt-console
                   # rqt-controller-manager
                   # rqt-dotgraph
                   # rqt-gauges
-                  # rqt-graph
+                  rqt-graph
                   rqt-gui
                   # rqt-gui-cpp
                   # rqt-gui-py
-                  # rqt-image-overlay
-                  # rqt-image-overlay-layer
-                  # rqt-image-view
+                  rqt-image-overlay
+                  rqt-image-overlay-layer
+                  rqt-image-view
                   # rqt-joint-trajectory-controller
                   # rqt-mocap4r2-control
                   # rqt-moveit
