@@ -31,8 +31,58 @@
                 paths = [
                   ros-core
                   turtlesim
+                  # all rqt stuff from the overlay
                   rqt
-                  # ... other ROS packages
+                  # rqt-action
+                  # rqt-bag
+                  # rqt-bag-plugins
+                  # rqt-common-plugins
+                  # rqt-console
+                  # rqt-controller-manager
+                  # rqt-dotgraph
+                  # rqt-gauges
+                  # rqt-graph
+                  rqt-gui
+                  # rqt-gui-cpp
+                  # rqt-gui-py
+                  # rqt-image-overlay
+                  # rqt-image-overlay-layer
+                  # rqt-image-view
+                  # rqt-joint-trajectory-controller
+                  # rqt-mocap4r2-control
+                  # rqt-moveit
+                  rqt-msg
+                  # rqt-play-motion-builder
+                  # rqt-plot
+                  rqt-publisher
+                  # rqt-py-common
+                  # rqt-py-console
+                  # rqt-reconfigure
+                  # rqt-robot-dashboard
+                  # rqt-robot-monitor
+                  # rqt-robot-steering
+                  # rqt-runtime-monitor
+                  # rqt-service-caller
+                  # rqt-shell
+                  # rqt-srv
+                  # rqt-tf-tree
+                  rqt-topic
+                  # all Webots integrations from the overlay
+                  # webots-ros2
+                  # webots-ros2-control
+                  # webots-ros2-core
+                  # webots-ros2-crazyflie
+                  # webots-ros2-driver
+                  # webots-ros2-epuck
+                  # webots-ros2-husarion
+                  # webots-ros2-importer
+                  # webots-ros2-mavic
+                  # webots-ros2-msgs
+                  # webots-ros2-tesla
+                  # webots-ros2-tests
+                  # webots-ros2-tiago
+                  # webots-ros2-turtlebot
+                  # webots-ros2-universal-robot
                 ];
               }
             )
