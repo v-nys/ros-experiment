@@ -37,7 +37,7 @@
                   rqt-bag
                   # rqt-bag-plugins
                   rqt-common-plugins
-                  # rqt-console
+                  rqt-console
                   # rqt-controller-manager
                   # rqt-dotgraph
                   # rqt-gauges
@@ -55,17 +55,17 @@
                   # rqt-play-motion-builder
                   # rqt-plot
                   rqt-publisher
-                  # rqt-py-common
+                  rqt-py-common
                   # rqt-py-console
                   # rqt-reconfigure
                   # rqt-robot-dashboard
                   # rqt-robot-monitor
                   # rqt-robot-steering
                   # rqt-runtime-monitor
-                  # rqt-service-caller
-                  # rqt-shell
-                  # rqt-srv
-                  # rqt-tf-tree
+                  rqt-service-caller
+                  rqt-shell
+                  rqt-srv
+                  rqt-tf-tree
                   rqt-topic
                   # all Webots integrations from the overlay
                   # webots-ros2
