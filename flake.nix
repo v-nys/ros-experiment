@@ -20,13 +20,13 @@
       {
         devShells.default = pkgs.mkShell {
           name = "Example project";
-          # see https://docs.ros.org/en/humble/Concepts/Intermediate/About-Domain-ID.html
+          # see https://docs.ros.org/en/kilted/Concepts/Intermediate/About-Domain-ID.html
           ROS_DOMAIN_ID = 50;
           packages = [
             pkgs.colcon
             # ... other non-ROS packages
             (
-              with pkgs.rosPackages.humble;
+              with pkgs.rosPackages.kilted;
               buildEnv {
                 paths = [
                   ros-core
@@ -68,7 +68,7 @@
                   rqt-tf-tree
                   rqt-topic
                   # all Webots integrations from the overlay
-                  # webots-ros2
+                  webots-ros2
                   # webots-ros2-control
                   # webots-ros2-core
                   # webots-ros2-crazyflie
@@ -82,7 +82,7 @@
                   # webots-ros2-tests
                   # webots-ros2-tiago
                   # webots-ros2-turtlebot
-                  # webots-ros2-universal-robot
+                  webots-ros2-universal-robot
                 ];
               }
             )
