@@ -2,12 +2,14 @@
   inputs = {
     nix-ros-overlay.url = "github:lopsided98/nix-ros-overlay/master";
     nixpkgs.follows = "nix-ros-overlay/nixpkgs"; # IMPORTANT!!!
+    webots.url = "github:acristoffers/webots-flake";
   };
   outputs =
     {
       self,
       nix-ros-overlay,
       nixpkgs,
+      webots,
     }:
     nix-ros-overlay.inputs.flake-utils.lib.eachDefaultSystem (
       system:
@@ -24,7 +26,7 @@
           ROS_DOMAIN_ID = 50;
           packages = [
             pkgs.colcon
-            # ... other non-ROS packages
+            webots.packages.${system}.default
             (
               with pkgs.rosPackages.kilted;
               buildEnv {
