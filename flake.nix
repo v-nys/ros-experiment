@@ -25,6 +25,13 @@
           # see https://docs.ros.org/en/kilted/Concepts/Intermediate/About-Domain-ID.html
           ROS_DOMAIN_ID = 50;
           WEBOTS_HOME = webots.packages.x86_64-linux.webotsDir;
+          shellHook = ''
+            export WEBOTS_TMPDIR="/tmp/webots-tmp"
+            export TMPDIR="/tmp/webots-tmp"
+            mkdir -p "$WEBOTS_TMPDIR"
+            chmod -R 777 "$WEBOTS_TMPDIR"
+            # ros2 launch webots_ros2_universal_robot multirobot_launch.py
+          '';
           packages = [
             pkgs.colcon
             webots.packages.${system}.default

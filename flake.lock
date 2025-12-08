@@ -135,11 +135,11 @@
         "webots": "webots_2"
       },
       "locked": {
-        "lastModified": 1765227818,
-        "narHash": "sha256-iGwWKucJtyvW/hxvFRI+dESdqaUQL5mpMEliKY57QNg=",
+        "lastModified": 1765228284,
+        "narHash": "sha256-iyKHKHo0vCRa6aa9AwQ2M2arNlCX+a6zkUcZWRFZRUo=",
         "owner": "v-nys",
         "repo": "webots-flake",
-        "rev": "93dae6f3cf1025e945b15766459d316364831d06",
+        "rev": "ffbe1ea2a2d9605746e391e4658848a2c678b164",
         "type": "github"
       },
       "original": {
