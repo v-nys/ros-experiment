@@ -2,7 +2,7 @@
   inputs = {
     nix-ros-overlay.url = "github:lopsided98/nix-ros-overlay/master";
     nixpkgs.follows = "nix-ros-overlay/nixpkgs"; # IMPORTANT!!!
-    webots.url = "github:acristoffers/webots-flake";
+    webots.url = "github:v-nys/webots-flake";
   };
   outputs =
     {
@@ -24,7 +24,7 @@
           name = "Webots-ROS integration";
           # see https://docs.ros.org/en/kilted/Concepts/Intermediate/About-Domain-ID.html
           ROS_DOMAIN_ID = 50;
-          WEBOTS_HOME = webots.packages.x86_64-linux.default;
+          WEBOTS_HOME = webots.packages.x86_64-linux.webotsDir;
           packages = [
             pkgs.colcon
             webots.packages.${system}.default

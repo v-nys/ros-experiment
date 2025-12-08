@@ -135,15 +135,15 @@
         "webots": "webots_2"
       },
       "locked": {
-        "lastModified": 1724572793,
-        "narHash": "sha256-9mMIc3k6wAH6p+2xybsGxzEf/TgvYcGYyvIYNHprolU=",
-        "owner": "acristoffers",
+        "lastModified": 1765227818,
+        "narHash": "sha256-iGwWKucJtyvW/hxvFRI+dESdqaUQL5mpMEliKY57QNg=",
+        "owner": "v-nys",
         "repo": "webots-flake",
-        "rev": "3a863fa643383490c7afbaae0ff9e594ac8210a0",
+        "rev": "93dae6f3cf1025e945b15766459d316364831d06",
         "type": "github"
       },
       "original": {
-        "owner": "acristoffers",
+        "owner": "v-nys",
         "repo": "webots-flake",
         "type": "github"
       }
