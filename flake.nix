@@ -31,6 +31,7 @@
             mkdir -p "$WEBOTS_TMPDIR"
             chmod -R 777 "$WEBOTS_TMPDIR"
             # ros2 launch webots_ros2_universal_robot multirobot_launch.py
+            # TODO: check if multirobot_launch.py can be patched to switch to mode 777
           '';
           packages = [
             pkgs.colcon
